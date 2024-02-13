@@ -197,3 +197,7 @@ find -iname "chapter*.txt"
 
 ```
 ## This command is used to search for files within a directory hierarchy, ignoring the case of the filenames.
+
+## Source:
+* https://man7.org/linux/man-pages/man1/find.1.html
+* https://www.redhat.com/sysadmin/linux-find-command
