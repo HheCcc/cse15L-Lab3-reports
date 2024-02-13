@@ -75,7 +75,6 @@ find -name preface.txt
 ```
 
 ## This commands are able to find the files and directory, it's useful when you forget the path of the file.
-
 ## -size
 ## Example1:
 * Command: 
@@ -159,7 +158,6 @@ find ./911report -type f
 ./911report/preface.txt
 ```
 ## This command can find every thing that are directory in that directory.
-
 ## -iname
 ## Example1:
 * Command:
