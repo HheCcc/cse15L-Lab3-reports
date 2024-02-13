@@ -137,6 +137,7 @@ find ./ -type d
 ```java
 find ./911report -type f
 ```
+
 * Output:
 ```java
 ./911report/chapter-1.txt
@@ -157,11 +158,12 @@ find ./911report -type f
 ./911report/chapter-9.txt
 ./911report/preface.txt
 ```
+
 ## This command can find every thing that are directory in that directory.
 ## -iname
 ## Example1:
 * Command:
-```java
+```
 find -iname "bio*"
 ```
 * Output:
@@ -173,6 +175,7 @@ find -iname "bio*"
 ```java
 find -iname "chapter*.txt"
 ```
+
 * Output:
 ```java
 ./911report/chapter-1.txt
@@ -192,6 +195,7 @@ find -iname "chapter*.txt"
 ./911report/chapter-8.txt
 ./911report/chapter-9.txt
 ```
+
 ## This command is used to search for files within a directory hierarchy, ignoring the case of the filenames.
 
 ## Source:
