@@ -54,22 +54,22 @@ the fix, the same array are being use to store elements, the first element lost 
 loop is excuted.
 
 # Part 2 - Researching Commands
-# -name
-# Example1:
+## -name
+## Example1:
 * Command: 
 `find -name 911report`
 * Output
 `./911report`
-# Example 2:
+## Example 2:
 * Command: 
 `find -name preface.txt`
 * Output: 
 `./911report/preface.txt`
 
- # This commands are able to find the files and directory, it's useful when you forget the path of the file.
+ ## This commands are able to find the files and directory, it's useful when you forget the path of the file.
 
-# -size
-# Example1:
+## -size
+## Example1:
 * Command: 
 `find ./911report -size +1k`
 * Output:
@@ -93,14 +93,14 @@ loop is excuted.
 ./911report/chapter-9.txt
 ./911report/preface.txt
 ```
-# Example 2:
+## Example 2:
 * Command: 
 `find ./plos/pmed.0020191.txt -size 1k`
 * Output: 
 `./plos/pmed.0020191.txt`
-# This command are able to find the file in that directory based on their size.
-# -type
-# Example1:
+## This command are able to find the file in that directory based on their size.
+## -type
+## Example1:
 * Command:
 `find ./ -type d`
 * Output:
@@ -117,7 +117,7 @@ loop is excuted.
 ./government/Post_Rate_Comm
 ./plos
 ```
-# Example2:
+## Example2:
 * Command:
 `find ./911report -type f`
 * Output:
@@ -141,4 +141,6 @@ loop is excuted.
 ./911report/preface.txt
 
 ```
-# This command can find every thing that are directory in that directory
+## This command can find every thing that are directory in that directory
+
+##
