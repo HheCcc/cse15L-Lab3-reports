@@ -66,7 +66,7 @@ loop is excuted.
 * Output: 
 `./911report/preface.txt`
 
-* This commands are able to find the files and directory, it's useful when you forget the path of the file.
+ # This commands are able to find the files and directory, it's useful when you forget the path of the file.
 
 # -size
 # Example1:
@@ -98,7 +98,7 @@ loop is excuted.
 `find ./plos/pmed.0020191.txt -size 1k`
 * Output: 
 `./plos/pmed.0020191.txt`
-
+# This command are able to find the file in that directory based on their size.
 # -type
 # Example1:
 * Command:
@@ -141,4 +141,4 @@ loop is excuted.
 ./911report/preface.txt
 
 ```
-
+# This command can find every thing that are directory in that directory
