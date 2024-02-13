@@ -194,7 +194,6 @@ find -iname "chapter*.txt"
 ./911report/chapter-7.txt
 ./911report/chapter-8.txt
 ./911report/chapter-9.txt
-
 ```
 ## This command is used to search for files within a directory hierarchy, ignoring the case of the filenames.
 
