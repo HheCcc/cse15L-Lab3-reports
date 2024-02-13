@@ -57,21 +57,31 @@ loop is excuted.
 ## -name
 ## Example1:
 * Command: 
-`find -name 911report`
+```java
+find -name 911report
+```
 * Output
-`./911report`
+```java
+./911report
+```
 ## Example 2:
 * Command: 
-`find -name preface.txt`
+```java
+find -name preface.txt
+```
 * Output: 
-`./911report/preface.txt`
+```java
+./911report/preface.txt
+```
 
- ## This commands are able to find the files and directory, it's useful when you forget the path of the file.
+## This commands are able to find the files and directory, it's useful when you forget the path of the file.
 
 ## -size
 ## Example1:
 * Command: 
-`find ./911report -size +1k`
+```java
+find ./911report -size +1k
+```
 * Output:
 ```java
 ./911report
@@ -95,14 +105,20 @@ loop is excuted.
 ```
 ## Example 2:
 * Command: 
-`find ./plos/pmed.0020191.txt -size 1k`
+```java
+find ./plos/pmed.0020191.txt -size 1k
+```
 * Output: 
-`./plos/pmed.0020191.txt`
+```java
+./plos/pmed.0020191.txt
+```
 ## This command are able to find the file in that directory based on their size.
 ## -type
 ## Example1:
 * Command:
-`find ./ -type d`
+```java
+find ./ -type d
+```
 * Output:
 ```java
 ./
@@ -119,7 +135,9 @@ loop is excuted.
 ```
 ## Example2:
 * Command:
-`find ./911report -type f`
+```java
+find ./911report -type f
+```
 * Output:
 ```java
 ./911report/chapter-1.txt
@@ -141,6 +159,41 @@ loop is excuted.
 ./911report/preface.txt
 
 ```
-## This command can find every thing that are directory in that directory
+## This command can find every thing that are directory in that directory.
 
-##
+## -iname
+## Example1:
+* Command:
+```java
+find -iname "bio*"
+```
+* Output:
+```java
+./biomed
+```
+## Example2:
+* Command:
+```java
+find -iname "chapter*.txt"
+```
+* Output:
+```java
+./911report/chapter-1.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+./911report/chapter-12.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-2.txt
+./911report/chapter-3.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-8.txt
+./911report/chapter-9.txt
+
+```
+## This command is used to search for files within a directory hierarchy, ignoring the case of the filenames.
