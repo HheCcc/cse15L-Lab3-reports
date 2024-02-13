@@ -22,6 +22,7 @@ public void testReverseInPlace() {
 ```
 
 ## Symptom:
+![image](symptom)
 
 
 ## The Bug: 
