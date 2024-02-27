@@ -1,7 +1,17 @@
 # CSE15L - Lab - Reports
 # Lab Report 3 - Bugs and Commands
 ## Part 1 - Bugs
-## A Failure-Input
+This method from the `ArrayExamples.java` that the bugs are on: 
+```java
+public class ArrayExamples {
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+## A Failure-Input: fails because it ends up with the same array instead of reversing it.
 ```java
 @Test 
 public void testReverseInPlace() {
@@ -11,7 +21,7 @@ public void testReverseInPlace() {
 }
 ```
 
-## An input that doesn't induce a failure
+## An input that doesn't induce a failure: because an array with a single element is already reversed in its own right.
 ```java
 @Test 
 public void testReverseInPlace() {
