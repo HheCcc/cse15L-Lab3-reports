@@ -84,7 +84,7 @@ find -name preface.txt
 ./911report/preface.txt
 ```
 
-## This commands are able to find the files and directory, it's useful when you forget the path of the file.
+## The `-name` command option is used to find files by their name within the directory hierarchy starting at a specified directory. It matches files that exactly meet the given pattern. This option is case-sensitive, meaning it will only find files that match the exact case of the provided pattern. It is useful for locating files when the full path is not known.
 ## -size
 ## Example1:
 * Command: 
@@ -121,7 +121,7 @@ find ./plos/pmed.0020191.txt -size 1k
 ```java
 ./plos/pmed.0020191.txt
 ```
-## This command are able to find the file in that directory based on their size.
+## The `-size` option is very useful for finding files that are taking up a significant amount of space, or to identify files that are below or above a certain size threshold.
 ## -type
 ## Example1:
 * Command:
@@ -169,7 +169,7 @@ find ./911report -type f
 ./911report/preface.txt
 ```
 
-## This command can find every thing that are directory in that directory.
+## The `-type` option is particularly useful when you want to isolate your search to a particular kind of filesystem object, like when you're looking for directories that match a certain name pattern, or when you're trying to find all the symbolic links in a directory for review or maintenance.
 ## -iname
 ## Example1:
 * Command:
@@ -206,7 +206,7 @@ find -iname "chapter*.txt"
 ./911report/chapter-9.txt
 ```
 
-## This command is used to search for files within a directory hierarchy, ignoring the case of the filenames.
+## The `-iname` option is particularly useful when you are unsure of the capitalization of the file names you are looking for, or when the file system contains file names with inconsistent capitalization patterns.
 
 ## Source:
 * https://man7.org/linux/man-pages/man1/find.1.html
