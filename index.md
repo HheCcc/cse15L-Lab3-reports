@@ -174,11 +174,28 @@ find ./911report -type f
 ## Example1:
 * Command:
 ```
-find -iname "bio*"
+find -iname "1471-2148*"
 ```
 * Output:
 ```java
-./biomed
+./docsearch/technical/biomed/1471-2148-1-1.txt
+./docsearch/technical/biomed/1471-2148-1-14.txt
+./docsearch/technical/biomed/1471-2148-1-4.txt
+./docsearch/technical/biomed/1471-2148-1-6.txt
+./docsearch/technical/biomed/1471-2148-1-8.txt
+./docsearch/technical/biomed/1471-2148-2-12.txt
+./docsearch/technical/biomed/1471-2148-2-14.txt
+./docsearch/technical/biomed/1471-2148-2-15.txt
+./docsearch/technical/biomed/1471-2148-2-17.txt
+./docsearch/technical/biomed/1471-2148-2-2.txt
+./docsearch/technical/biomed/1471-2148-2-5.txt
+./docsearch/technical/biomed/1471-2148-2-7.txt
+./docsearch/technical/biomed/1471-2148-2-8.txt
+./docsearch/technical/biomed/1471-2148-3-1.txt
+./docsearch/technical/biomed/1471-2148-3-18.txt
+./docsearch/technical/biomed/1471-2148-3-3.txt
+./docsearch/technical/biomed/1471-2148-3-4.txt
+./docsearch/technical/biomed/1471-2148-3-7.txt
 ```
 ## Example2:
 * Command:
